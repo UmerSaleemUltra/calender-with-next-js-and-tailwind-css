@@ -17,7 +17,7 @@ const Calendar = () => {
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">{format(currentMonth, 'MMMM yyyy')}</h2>
       <div className="grid grid-cols-7 gap-2 text-center mb-4">
         {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((day) => (
-          <div key={day} className="font-semibold text-gray-700 text-xs sm:text-sm">{day}</div>
+          <div key={day} className="font-semibold text-black text-xs sm:text-sm">{day}</div>
         ))}
       </div>
       <div className="grid grid-cols-7 gap-2 sm:gap-4">
